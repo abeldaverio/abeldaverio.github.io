@@ -1,8 +1,8 @@
-
+65;7204;1c
 function insert_element(item, list) {
     const li = document.createElement("li");
     var a = document.createElement("a");
-    a.href = (document.URL.slice(0, document.URL.length - "index.html".length) + ("item.html?id=" + item._id));
+    a.href = (document.URL.slice(0, document.URL.length - "index.html".length) + ("HTML-CSS/item.html?id=" + item._id));
     const article = document.createElement("article");
     var name = document.createElement("h2");
     name.appendChild(document.createTextNode(item.name));
