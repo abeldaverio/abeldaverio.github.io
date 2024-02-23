@@ -1,0 +1,52 @@
+@font-face { font-family: Basic; src: url("../FONT/Roboto-Light.ttf");}
+
+h1, h2, h3, h4, p, .empty, a {
+    font-family: Basic;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #C8AD7F;
+}
+
+header > nav > ul {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-left: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+main > ul {
+    list-style: none;
+}
+
+#confirm {
+    margin-top: 50px;
+    width: 100%;
+    font-size: 15px;
+}

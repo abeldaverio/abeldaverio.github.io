@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <meta charset="UTF-8">
+  <head>
+    <title>KDF</title>
+    <link rel="stylesheet" href="command.css">
+    <script src="https://kit.fontawesome.com/1880bbd687.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+    <script src="../SCRIPTS/send_command.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img class="logo" src="../ASSETS/logo.png" alt="logo KDF"></img></a></li>
+          <li><a href="basket.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <ul>
+        <li>
+          <p>Email:</p>
+          <input id="email" type="email" placeholder="Ex: exemple@exemple.com">
+        </li>
+        <li>
+          <p>Prénom:</p>
+          <input id="first_name" placeholder="Ex: Cristiano">
+        </li>
+        <li>
+          <p>Nom:</p>
+          <input id="name" placeholder="Ex: Ronaldo">
+        </li>
+        <li>
+          <p>Adresse:</p>
+          <input id="adress" placeholder="Ex: 35 rue de la République"></li>
+        <li>
+          <p>Code postal:</p>
+          <input id="zip_code" placeholder="Ex: 74200">
+        </li>
+        <li>
+          <button id="confirm" onclick="send_command();">Confirmer la commande</button>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
